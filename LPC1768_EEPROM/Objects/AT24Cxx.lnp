@@ -1,0 +1,13 @@
+--cpu Cortex-M3
+".\objects\bitbytenumber.o"
+".\objects\delay.o"
+".\objects\eeprom.o"
+".\objects\gpio.o"
+".\objects\main.o"
+".\objects\softi2c.o"
+".\objects\startup_lpc17xx.o"
+".\objects\system_lpc17xx_1.o"
+--strict --scatter ".\Objects\AT24Cxx.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\AT24Cxx.map" -o .\Objects\AT24Cxx.axf

@@ -1,0 +1,13 @@
+.\objects\softi2c.o: softi2c.c
+.\objects\softi2c.o: softi2c.h
+.\objects\softi2c.o: C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.6.0\Device\Include\LPC17xx.h
+.\objects\softi2c.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h
+.\objects\softi2c.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\softi2c.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h
+.\objects\softi2c.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\softi2c.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\softi2c.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h
+.\objects\softi2c.o: C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.6.0\Device\Include\system_LPC17xx.h
+.\objects\softi2c.o: gpio.h
+.\objects\softi2c.o: delay.h
+.\objects\softi2c.o: BitByteNumber.h

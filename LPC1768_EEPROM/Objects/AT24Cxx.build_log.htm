@@ -1,0 +1,86 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.17.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: m f, mfd, LIC=FQQMA-19UV1-GQA0H-WDNVX-YUSXV-XK411
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.17
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARMCM3.DLL V5.17
+Dialog DLL:      DARMP1.DLL V1.25.0.0
+Target DLL:      UL2CM3.DLL V1.156.1.0
+Dialog DLL:      TARMP1.DLL V1.24.0.0
+ 
+<h2>Project:</h2>
+E:\Dehghani\tutorial\LPC1768\EEPROM\AT24Cxx.uvprojx
+Project File Date:  04/24/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+compiling BitByteNumber.c...
+compiling eeprom.c...
+compiling delay.c...
+compiling gpio.c...
+compiling main.c...
+main.c(8): warning:  #177-D: variable "ByteAddress" was declared but never referenced
+  	uint32_t ByteAddress = 10;
+main.c(11): warning:  #550-D: variable "Data" was set but never used
+  	uint8_t Data;
+main.c(15): warning:  #550-D: variable "Number" was set but never used
+  	int32_t Number;
+main.c(16): warning:  #550-D: variable "Number_F" was set but never used
+  	float Number_F ;
+main.c: 4 warnings, 0 errors
+assembling startup_LPC17xx.s...
+compiling softi2c.c...
+compiling system_LPC17xx.c...
+linking...
+Program Size: Code=11900 RO-data=380 RW-data=16 ZI-data=608  
+".\Objects\AT24Cxx.axf" - 0 Error(s), 4 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.7.0.pack
+                ARM::CMSIS:CORE:5.4.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.4.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.LPC1700_DFP.2.6.0.pack
+                Keil::Device:Startup:1.0.0
+                NXP LPC1700 Series Device Support, Drivers and Examples for MCB1700 and LPC1788-32
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  E:\Dehghani\tutorial\LPC1768\EEPROM\RTE
+  E:\Dehghani\tutorial\LPC1768\EEPROM\RTE\Device\LPC1768
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+  C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.6.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.4.0
+      Source file:   CMSIS\Core\Template\ARMv8-M\main_s.c
+      Include file:  CMSIS\Core\Include\tz_context.h
+      Source file:   CMSIS\Core\Template\ARMv8-M\tz_context.c
+
+   * Component: Keil::Device:Startup:1.0.0
+      Source file:   Device\Source\ARM\startup_LPC17xx.s
+      Include file:  Device\Include\LPC17xx.h
+      Include file:  RTE_Driver\Config\RTE_Device.h
+      Source file:   Device\Source\system_LPC17xx.c
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
