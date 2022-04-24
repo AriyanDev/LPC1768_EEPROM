@@ -15,7 +15,7 @@ int main()
 	int32_t Number;
 	float Number_F ;
 
-  EEPROM_Init( AT24C128, P2_6/*SDA0*/, P2_7/*SCL0*/ );
+  EEPROM_Init( AT24C128, P2_0/*SDA0*/, P2_1/*SCL0*/ );
 
 
   EEPROM_WriteByte( 0, 'G', IcAddress );
