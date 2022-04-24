@@ -5,11 +5,11 @@ The AT24Cxx are eeprom IC family that could connect to other devices by I2C prot
 Frequency of SCL = 100KHZ
 
 
-                     LPC1768
-                  |------------|                  
-                  |            |                            ATC24xx
+                                                
+                      LPC1768
+                  |------------|                            ATC24xx
                   |            |                        |------------|      
-                               |                     GND|7          1|GND        
+                  |            |                     GND|7          1|GND        
                   |        P2.1|----------SCL-----------|6          2|GND                              
                   |        P2.0|----------SDA-----------|5          3|GND                                                   
                   |            |                        |------------|                  
